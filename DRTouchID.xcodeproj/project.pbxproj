@@ -15,6 +15,7 @@
 		4EBCB3F91C8523C900FD023C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBCB3F71C8523C900FD023C /* LaunchScreen.storyboard */; };
 		4EBCB4041C8523C900FD023C /* DRTouchIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBCB4031C8523C900FD023C /* DRTouchIDTests.m */; };
 		4EBCB40F1C8523C900FD023C /* DRTouchIDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBCB40E1C8523C900FD023C /* DRTouchIDUITests.m */; };
+		4EBCB41E1C85256000FD023C /* DRTouchIDContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EBCB41D1C85256000FD023C /* DRTouchIDContext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4EBCB40A1C8523C900FD023C /* DRTouchIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DRTouchIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBCB40E1C8523C900FD023C /* DRTouchIDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRTouchIDUITests.m; sourceTree = "<group>"; };
 		4EBCB4101C8523C900FD023C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EBCB41C1C85256000FD023C /* DRTouchIDContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRTouchIDContext.h; sourceTree = "<group>"; };
+		4EBCB41D1C85256000FD023C /* DRTouchIDContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRTouchIDContext.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		4EBCB3E81C8523C900FD023C /* DRTouchID */ = {
 			isa = PBXGroup;
 			children = (
+				4EBCB41C1C85256000FD023C /* DRTouchIDContext.h */,
+				4EBCB41D1C85256000FD023C /* DRTouchIDContext.m */,
 				4EBCB3EC1C8523C900FD023C /* AppDelegate.h */,
 				4EBCB3ED1C8523C900FD023C /* AppDelegate.m */,
 				4EBCB3EF1C8523C900FD023C /* ViewController.h */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EBCB41E1C85256000FD023C /* DRTouchIDContext.m in Sources */,
 				4EBCB3F11C8523C900FD023C /* ViewController.m in Sources */,
 				4EBCB3EE1C8523C900FD023C /* AppDelegate.m in Sources */,
 				4EBCB3EB1C8523C900FD023C /* main.m in Sources */,
